@@ -77,7 +77,7 @@ body {
     border-top: 1px solid var(--footer-color);
     background-color: var(--footer-color);
     height: 80px;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
 }
 
 .footer a {
@@ -155,19 +155,30 @@ blockquote {
 }
 
 .nav ul li:first-child {
-    background: red;
+    background: rgb(200, 255, 242);
 }
 
 .nav ul li:last-child {
-    background: green;
+    background: rgb(96, 198, 181);
 }
 
 .nav ul li:hover {
-    background: blue;
+    background: rgb(245, 194, 255);
+}
+
+.nav {
+    margin: 6px 18px 0 0;
 }
 
 .nav ul li {
-    background: black;
+    background: rgba(255, 61, 187, 0.5);
+    margin: 0 8px;
+    border: 1px solid black;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding: 1rem;
 }
 
 .box {
@@ -209,4 +220,24 @@ blockquote {
     width: 100vh;
     min-height: 100px;
     background: green;
+}
+
+.floaty-left {
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+.introduction p:first-child::first-letter {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.logo img {
+    max-width: 128px;
+    aspect-ratio: 600 / 600;
+    border-radius: 50%;
+}
+
+.logo {
+    padding: 2em 4em;
 }

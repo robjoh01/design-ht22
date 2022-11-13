@@ -1,0 +1,6 @@
+.footer {
+    padding: 1.5rem;
+    margin: 0 auto;
+    background-color: $footer-background-color;
+    color: lighten($footer-background-color, 80%);
+}

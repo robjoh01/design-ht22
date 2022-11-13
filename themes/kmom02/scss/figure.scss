@@ -1,0 +1,17 @@
+figure {
+    margin: 1em 0;
+    padding: 0 10px 0 0;
+
+    &.floaty-left {
+        float: left;
+    }
+
+    &.floaty-right {
+        float: right;
+    }
+
+    figcaption {
+        font-style: italic;
+        font-size: 14px;
+    }
+}

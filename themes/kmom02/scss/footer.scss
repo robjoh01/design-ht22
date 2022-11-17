@@ -4,3 +4,15 @@
     background-color: $footer-background-color;
     color: lighten($footer-background-color, 80%);
 }
+
+.social a {
+    color: #ccc;
+    font-size: 36px;
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: all 250ms ease-in-out;
+}
+
+.social a:hover {
+    color: #fff;
+}

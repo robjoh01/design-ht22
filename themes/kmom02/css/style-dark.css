@@ -309,7 +309,7 @@ template {
 }
 
 body {
-  background-color: #F8F9FA;
+  background-color: #343A40;
 }
 
 * {
@@ -323,7 +323,7 @@ html {
 
 body {
   line-height: 1.4;
-  color: #343A40;
+  color: #F8F9FA;
 }
 
 h1 {

@@ -1,0 +1,24 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="analysis-page">
+            <article class="content">
+                {{ content }}
+            </article>
+            <aside class="menu">
+                <ul>
+                    <li{% if "analysis/britishmuseum"==current_page.id %} class="active" {% endif %}><a href="britishmuseum">Brittiskt museum</a></li>
+                    <li{% if "analysis/cyberpunk_2077"==current_page.id %} class="active" {% endif %}><a href="cyberpunk_2077">Cyberpunk 2077</a></li>
+                    <li{% if "analysis/need_for_speed_unbound"==current_page.id %} class="active" {% endif %}><a href="need_for_speed_unbound">Need For Speed Unbound</a></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

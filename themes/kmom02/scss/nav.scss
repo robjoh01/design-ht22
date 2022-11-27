@@ -1,3 +1,19 @@
 .nav {
     padding: 0 2em;
 }
+
+.nav ul li a {
+    color: $font-alternative-color;
+}
+
+.nav ul li a:hover {
+    color: lighten($font-alternative-color, 10%);
+}
+
+.title a {
+    color: $accent-color;
+}
+
+.title a:hover {
+    color: lighten($accent-color, 10%);
+}

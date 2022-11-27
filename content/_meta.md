@@ -1,5 +1,5 @@
 ---
-Logo: image/eye_tattoo.jpg
+Logo: assets/img/eye_tattoo.jpg
 Tagline: My portfolio.
 Social:
     - title: Link to sites Github repo.
@@ -8,4 +8,10 @@ Social:
     - title: Link to Dbwebb YouTube channel.
       url: https://www.youtube.com/c/DbwebbSe
       icon: youtube
+    - title: Dark Mode
+      url: ?action=theme
+      icon: moon-o
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: trash-o
 ---

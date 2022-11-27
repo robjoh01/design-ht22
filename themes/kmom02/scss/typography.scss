@@ -11,6 +11,7 @@ html {
 
 body {
     line-height: $base-line-height;
+    color: $font-color;
 }
 
 h1 {
@@ -28,6 +29,14 @@ p {
     font-family: 'Lora', serif;
 }
 
+a {
+    color: $font-alternative-color;
+}
+
+a:hover {
+    color: lighten($font-alternative-color, 10%);
+}
+
 .main {
     max-width: 67rem;
     margin: 0 auto;
@@ -43,4 +52,8 @@ p {
 .introduction p:first-child::first-letter {
     font-size: 2rem;
     font-weight: 400;
+}
+
+.floaty-left img {
+    margin: 0 2rem 1rem 0;
 }

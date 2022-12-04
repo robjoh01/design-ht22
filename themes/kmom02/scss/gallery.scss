@@ -1,0 +1,200 @@
+.gallery-page {
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    gap: 2em 2em;
+    margin: 2em auto;
+}
+
+.gallery-box {
+    display: block;
+    border: 1px solid $font-color;
+    padding: 2em;
+    transition: all 250ms ease-in-out;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    * {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    & .preview-text {
+        display: block;
+        white-space: pre-wrap;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    & .link {
+        display: block;
+        margin: 1em auto;
+        padding: 4px 16px;
+        background-color: transparent;
+        border-radius: 26px;
+        color: transparentize($accent-color, 0.5);
+        border: 2px solid transparentize($accent-color, 0.5);
+        text-decoration: none;
+        text-align: center;
+        transition: all 250ms ease-in-out; 
+
+        &:hover {
+            color: opacify($accent-color, 1);
+            border-color: opacify($accent-color, 1);
+        }
+    }
+
+    &:hover {
+        box-shadow: 10px 10px 5px 0px transparentize(invert($font-color), 0.2);
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .gallery-page {
+        grid-template-columns: 100% 100% auto;
+    }
+
+    .gallery-box {
+        &.space {
+            grid-column: 1 / 1;
+            grid-row: 1 / 1;
+        }
+
+        &.forest {
+            grid-column: 1 / 1;
+            grid-row: 2 / 2;
+        }
+
+        &.cat {
+            grid-column: 1 / 1;
+            grid-row: 3 / 3;
+        }
+
+        &.island {
+            grid-column: 1 / 1;
+            grid-row: 4 / 4;
+        }
+
+        &.pool {
+            grid-column: 1 / 1;
+            grid-row: 5 / 5;
+        }
+
+        &.music {
+            grid-column: 1 / 3;
+            grid-row: 6 / 6;
+        }
+
+        &.sports {
+            grid-column: 1 / 1;
+            grid-row: 7 / 7;
+        }
+
+        &.phone {
+            grid-column: 1 / 1;
+            grid-row: 8 / 8;
+        }
+
+        &.car {
+            grid-column: 1 / 1;
+            grid-row: 9 / 9;
+        }
+
+        &.mountain {
+            grid-column: 1 / 1;
+            grid-row: 10 / 10;
+        }
+
+        &.snow {
+            grid-column: 1 / 1;
+            grid-row: 11 / 11;
+        }
+
+        &.winter {
+            grid-column: 1 / 1;
+            grid-row: 12 / 12;
+        }
+
+        &.youtube {
+            width: 50%;
+            grid-column: 1 / 1;
+            grid-row: 13 / 13;
+        }
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .gallery-page {
+        grid-template-columns: 30% 30% auto;
+    }
+
+    .gallery-box {
+        &.space {
+            grid-column: 1 / 1;
+            grid-row: 1 / 3;
+        }
+
+        &.forest {
+            grid-column: 2 / 2;
+            grid-row: 1 / 3;
+        }
+
+        &.cat {
+            grid-column: 3 / 3;
+            grid-row: 1 / 3;
+        }
+
+        &.island {
+            grid-column: 1 / 1;
+            grid-row: 3 / 6;
+        }
+
+        &.pool {
+            grid-column: 2 / 2;
+            grid-row: 3 / 6;
+        }
+
+        &.music {
+            grid-column: 3 / 3;
+            grid-row: 3 / 6;
+        }
+
+        &.sports {
+            grid-column: 1 / 1;
+            grid-row: 6 / 9;
+        }
+
+        &.phone {
+            grid-column: 2 / 2;
+            grid-row: 6 / 9;
+        }
+
+        &.car {
+            grid-column: 3 / 3;
+            grid-row: 6 / 9;
+        }
+
+        &.mountain {
+            grid-column: 1 / 1;
+            grid-row: 9 / 12;
+        }
+
+        &.snow {
+            grid-column: 2 / 2;
+            grid-row: 9 / 12;
+        }
+
+        &.winter {
+            grid-column: 3 / 3;
+            grid-row: 9 / 12;
+        }
+
+        &.youtube {
+            width: 50%;
+            grid-column: 1 / 6;
+            grid-row: 12 / 15;
+        }
+    }
+}

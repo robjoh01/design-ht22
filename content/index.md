@@ -24,3 +24,5 @@ Home page
     <p>Spel-projektet heter "Apex Point". <a href="https://apexstudios.eu/" target="_blank">Länk till deras hemsida.</a>
     Spelet utspelas sig i Japan och består av JDM kulturen. JDM står för Japanese domestic market. Poängen med spelet är att racea runt med sin street bil tillsammans med sina vänner. Spelet har också realistisk bil-fysikmotor som simulera näst intill verkliga livet.</p>
 </div>
+
+![Bild på mig](%base_url%/image/gaming.jpg?w=500)

@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/eye_tattoo.jpg
+Logo: image/eye_tattoo.jpg?w=128&q=10
 Tagline: My portfolio.
 Social:
     - title: Link to sites Github repo.

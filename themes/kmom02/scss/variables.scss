@@ -1,12 +1,20 @@
-$font-color: #343A40;
-$font-alternative-color: #6C757D;
-$accent-color: #5b98d5;
-$background-color: #F8F9FA;
-$background-alternative-color: #e0fbfc;
+$font-color: hsl(210deg, 10%, 23%);
+$font-alternative-color: hsl(208deg, 7%, 30%);
+$accent-color: hsl(210deg, 59%, 60%);
+$accent-color-contrast: darken($accent-color, 50%);
+$background-color: hsl(210deg, 17%, 98%);
+$background-alternative-color: hsl(182deg, 82%, 93%);
 
 $base-line-height: 1.4;
 $base-font-size: 1.1rem;
 $magic-number: $base-line-height * $base-font-size;
 
-$header-background-color: #212529;
-$footer-background-color: #212529;
+$header-background-color: hsl(210deg, 11%, 15%);
+$footer-background-color: hsl(210deg, 11%, 15%);
+
+$code-color:  hsl(0deg, 0%, 0%);
+$code-border-color: hsl(0deg, 0%, 90%);
+$code-background-color: hsl(0deg, 0%, 93%);
+$pre-color: hsl(0deg, 0%, 0%);
+$pre-border-color: hsl(0deg, 0%, 90%);
+$pre-background-color: hsl(0deg, 0%, 93%);

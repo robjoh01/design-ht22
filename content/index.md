@@ -7,7 +7,7 @@ Home page
 ==========================
 
 <figure class="floaty-left">
-    <img src="%base_url%/assets/img/studenten.png" width="300" alt="Robin - Student 2020">
+    <img src="%base_url%/image/studenten.png?save-as=jpg&w=300&q=50" width="300" alt="Robin - Student 2020">
     <figcaption>Robin - Student 2020</figcaption>
 </figure>
 

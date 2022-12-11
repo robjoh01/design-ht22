@@ -12,7 +12,7 @@
         &.active {
             & a {
                 text-decoration: underline;
-                color: $accent-color;
+                color: lighten($accent-color-contrast, 30%);
             }
         }
 
@@ -20,7 +20,7 @@
             font-size: 24px;
             font-weight: bold;
             text-decoration: none;
-            color: transparentize($font-color, 0.5);
+            color: transparentize($font-color, 0.2);
 
             &:hover {
                 color: opacify($font-color, 1);

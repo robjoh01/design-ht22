@@ -28,11 +28,11 @@ Sidans färgpalett:
 
 <table style="border-collapse: separate">
     <tr>
-        <td style="background-color: #E5E5E5; color: black;">E5E5E5</td>
-        <td style="background-color: #1D1D1D;">1D1D1D</td>
-        <td style="background-color: #A1A5A5;">A1A5A5</td>
-        <td style="background-color: #FFFFFF; color: black;">FFFFFF</td>
-        <td style="background-color: #262626;">262626</td>
+        <td style="background-color: #E5E5E5; color: black; border-color: white;">E5E5E5</td>
+        <td style="background-color: #1D1D1D; color: white; border-color: black;">1D1D1D</td>
+        <td style="background-color: #A1A5A5; color: black; border-color: white;">A1A5A5</td>
+        <td style="background-color: #FFFFFF; color: black; border-color: white;">FFFFFF</td>
+        <td style="background-color: #262626; color: white; border-color: black;">262626</td>
     </tr>
 </table>
 
@@ -85,11 +85,11 @@ Sidans färgpalett:
 
 <table style="border-collapse: separate">
     <tr>
-        <td style="background-color: #E5E5E5;">F20544</td>
-        <td style="background-color: #D9048E;">D9048E</td>
-        <td style="background-color: #05F2C7;">05F2C7</td>
-        <td style="background-color: #F2E307;">F2E307</td>
-        <td style="background-color: #F2CC0C;">F2CC0C</td>
+        <td style="background-color: #E5E5E5; color: black; border-color: white;">F20544</td>
+        <td style="background-color: #D9048E; color: white; border-color: black;">D9048E</td>
+        <td style="background-color: #05F2C7; color: black; border-color: white;">05F2C7</td>
+        <td style="background-color: #F2E307; color: black; border-color: white;">F2E307</td>
+        <td style="background-color: #F2CC0C; color: black; border-color: white;">F2CC0C</td>
     </tr>
 </table>
 
@@ -142,11 +142,11 @@ Sidans färgpalett:
 
 <table style="border-collapse: separate">
     <tr>
-        <td style="background-color: #020873;">F20544</td>
-        <td style="background-color: #06730D;">06730D</td>
-        <td style="background-color: #0BD904;">0BD904</td>
-        <td style="background-color: #2ABF24;">2ABF24</td>
-        <td style="background-color: #0D0D0D;">0D0D0D</td>
+        <td style="background-color: #020873; color: white; border-color: black;">F20544</td>
+        <td style="background-color: #06730D; color: white; border-color: black;">06730D</td>
+        <td style="background-color: #0BD904; color: black; border-color: white;">0BD904</td>
+        <td style="background-color: #2ABF24; color: black; border-color: white;">2ABF24</td>
+        <td style="background-color: #0D0D0D; color: white; border-color: black;">0D0D0D</td>
     </tr>
 </table>
 

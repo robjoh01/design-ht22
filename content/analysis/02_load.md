@@ -41,7 +41,7 @@ Resultat
 <a href="https://docs.google.com/spreadsheets/d/1a9gR8rwH7Ms_RVXA4M1bbLaq5f1RI3kuhlubmBT1FAs/edit?usp=sharing" target="_blank">Länk till Excel</a>
 
 <div class="excel">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7sC6yMj4V8djsCIhMeM7HFR9GfQ4bsmU-BS6IwT6_ul4j1_K1rjykhHKKKxFFJyWI1UOBGui2w0VZ/pubhtml?widget=true&amp;headers=false"></iframe>
+    <iframe title="Design Load Times" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7sC6yMj4V8djsCIhMeM7HFR9GfQ4bsmU-BS6IwT6_ul4j1_K1rjykhHKKKxFFJyWI1UOBGui2w0VZ/pubhtml?widget=true&amp;headers=false"></iframe>
 </div>
 
 Analys

@@ -1,19 +1,47 @@
 .nav {
-    padding: 0 2em;
+    ul {
+        padding: 1em;
+
+        li {
+
+            a {
+                color: lighten($font-alternative-color, 50%);
+                text-decoration: none;
+                text-underline-offset: 8px;
+                transition: all 150ms ease-in-out;
+
+                &:hover {
+                    color: $accent-color;
+                    text-decoration: underline;
+                }
+            }
+
+            &.active a {
+                color: $accent-color;
+                text-decoration: underline;
+            }
+        }
+    }
 }
 
-.nav ul li a {
-    color: $font-alternative-color;
+@media (min-width: 320px) {
+    .nav {
+        position: relative;
+
+        ul li a {
+            font-size: $base-font-size * 1.25;
+        }
+    }
 }
 
-.nav ul li a:hover {
-    color: lighten($font-alternative-color, 10%);
-}
+@media (min-width: 767px) {
+    .nav {
+        position: absolute;
+        bottom: 0;
+        right: 0;
 
-.title a {
-    color: $accent-color;
-}
-
-.title a:hover {
-    color: lighten($accent-color, 10%);
+        ul li a {
+            font-size: $base-font-size;
+        }
+    }
 }

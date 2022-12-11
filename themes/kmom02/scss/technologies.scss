@@ -15,9 +15,11 @@
         display: block;
         white-space: pre-wrap;
         display: -webkit-box;
-        -webkit-line-clamp: 5;
+        -webkit-line-clamp: 6;
         -webkit-box-orient: vertical;
         overflow: hidden;
+        padding: 0;
+        border: 1em solid transparent;
     }
 
     & .link {
@@ -26,20 +28,20 @@
         padding: 4px 16px;
         background-color: transparent;
         border-radius: 26px;
-        color: transparentize($accent-color, 0.5);
-        border: 2px solid transparentize($accent-color, 0.5);
+        color: transparentize($accent-color-contrast, 0.2);
+        border: 2px solid transparentize($accent-color-contrast, 0.2);
         text-decoration: none;
         text-align: center;
         transition: all 250ms ease-in-out; 
 
         &:hover {
-            color: opacify($accent-color, 1);
-            border-color: opacify($accent-color, 1);
+            color: opacify($accent-color-contrast, 1);
+            border-color: opacify($accent-color-contrast, 1);
         }
     }
 
     &:hover {
-        box-shadow: 10px 10px 5px 0px transparentize(invert($font-color), 0.2);
+        box-shadow: 10px 10px 5px 0px transparentize(invert($font-color), 0.6);
     }
 }
 

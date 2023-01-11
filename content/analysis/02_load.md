@@ -29,14 +29,15 @@ Därefter använder jag mig utav *Google Spreadsheets* (*Google Kalkylark*), fö
 
 Sedan efter använder jag mig utav *devtools* från Google Chrome webbläsaren. *Devtools* hjälper då att mäta laddningstiden, samt hur mycket som har laddas in via webbläsaren.
 
+
 Resultat
 -----------------------
 
 <!-- Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade. -->
 
-![Giphy](%base_url%/image/giphy.png?w=600)<br>
-![aftonbladet](%base_url%/image/aftonbladet.png?w=600)<br>
-![wikiHow](%base_url%/image/wikiHow.png?w=600)<br>
+![Giphy](%base_url%/image/giphy.png?w=600)<br><br><br><br>
+![aftonbladet](%base_url%/image/aftonbladet.png?w=600)<br><br><br><br>
+![wikiHow](%base_url%/image/wikiHow.png?w=600)<br><br><br><br>
 
 <a href="https://docs.google.com/spreadsheets/d/1a9gR8rwH7Ms_RVXA4M1bbLaq5f1RI3kuhlubmBT1FAs/edit?usp=sharing" target="_blank">Länk till Excel</a>
 
@@ -49,13 +50,26 @@ Analys
 
 <!-- Diskutera och analysera de resultaten du fann. -->
 
-Resultat visar att *wikiHow* laddar in snabbast, både på datorn och mobilen.
+<br>
 
-Både *Giphy* och *Aftonbladet* laddar mest saktas. Jämför med *wikiHow* så är det nästan **2.5x** gånger saktare laddningstid.
+<h3>Rangordning</h3>
+<ol type="1">
+  <li>wikiHow - Poäng Avg: <b>88</b></li>
+  <li>Giphy - Poäng Avg: <b>55</b></li>
+  <li>Aftonbladet - Poäng Avg: <b>39,5</b></li>
+</ol>
 
-Sammanfattningsvis, kan man säga att desto mer information (bilder, gifs, videos, artiklar, o.s.v.), desto mer data kommer det att dra. Vilken i sin tur påverkar laddningstiden för hemsidan. Det är förväntat att nyhets hemsidor, tar väldigt långt tid att ladda in, eftersom hemsidan behöver ladda in många artiklar, samt deras information.
+<br>
 
-[MIT, In the blink of an eye] påstår att människans öga kan se runt 13-80 ms. Det vill säga att människan hinner inte processa för snabb information. Därmed tror jag när man säger en snabb laddningstid för en hemsidan, blir runt 10-50 ms. Medans 100-1000 ms blir alltså långsam laddningstid för en hemsida.
+Resultat visar att *wikiHow* laddar snabbast på både datorer och mobiler.*Giphy* och *Aftonbladet* laddar däremot mycket långsammare, med nästan **2,5** gånger så lång laddningstid jämfört med *wikiHow*.
+
+Det är väntat att nyhetssidor tar längre tid att ladda, eftersom de ofta innehåller många artiklar och mycket information. Överlag kan man säga att ju mer innehåll en sida har, desto mer data kommer den att behöva hämta och därmed påverka laddningstiden.
+
+De skulle kunna minimera all information som hämtas in. Till exempel istället för hämta alla artiklar och deras data, kan man bara hämta alla titlar. Sedan om användaren trycker in sig på artikeln, kan hela artikelns data laddas in. Detta kallas för *Lazy loader*. Ladda in data, när det behöves.
+
+En sak som *Giphy* skulle kunna göra att använda olika metoder för komprimera gifs:en till ett lägre format. Samt använda olika cache tekniker för att då spara gifs:en på webbläsaren. *Giphy* skulle kunna använda metoder för då ta bort många färger på gifs:en, samt ta bort frame som är en kopia av en annan frame.
+
+Enligt MIT's forskning (MIT, In the blink of an eye) kan människans öga se upp till 80 ms. Detta innebär att människor inte kan processa för snabb information. Därför anses en snabb laddningstid för en hemsida vara mellan 10-50 ms, medan 100-1000 ms anses vara en långsam laddningstid.
 
 Referenser
 -----------------------

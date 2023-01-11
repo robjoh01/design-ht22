@@ -71,12 +71,12 @@
 
 .excel iframe {
     width: 100%;
-    min-height: 30em;
+    min-height: 32em;
     margin-bottom: 2em;
 }
 
 @mixin cell {
-    border: 1px solid $accent-color;
+    // border: 1px solid $accent-color;
     padding: 1rem;
     grid-row: 1 / 10;
 }
